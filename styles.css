@@ -22,9 +22,17 @@ h1 {
 //  border-radius:4px;
 //}
 
+h3.warning {
+    background-color:red;
+    color: white;
+    margin: 25px 50px 0px 50px;
+}
+
+
 p {
   margin: 25px 50px 0px 50px;
 }
+
 
 .it_underline{
   text-decoration-line: underline;
