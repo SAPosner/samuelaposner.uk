@@ -96,7 +96,7 @@ figcaption {
   width: 395px;
 }
 
-td.waterloo {
+td.waterloo, th.waterloo {
     padding: 10px
 }
 
