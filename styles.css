@@ -28,6 +28,11 @@ h3.warning {
     margin: 25px 50px 0px 50px;
 }
 
+p.maths {
+  font-style:italic;
+  font-family: "Times New Roman";
+  margin: 25px 50px 0px 50px;
+}
 
 p {
   margin: 25px 50px 0px 50px;
