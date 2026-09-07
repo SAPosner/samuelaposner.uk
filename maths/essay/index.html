@@ -46,10 +46,10 @@ MathJax = {
 
 <figure>
   <img src="inexactsearch.png" alt="Inexact Line Search applied to Griewank Function" style="height:300px";>
-  <figcaption>Iterates produced when applying the Gradient Descent method to the Griewank function. </figcaption>
+  <figcaption>Iterates produced when applying the Gradient Descent method to the 2D Griewank function. </figcaption>
 </figure>
 
-    <p> In the figure above we consider the 2D Griewank function, \[
+    <p> In the figure to the right we consider the 2D Griewank function, \[
 f \left( x, y \right) = \frac{{x}^{2} + {y}^{2}}{4000} - \cos \left( x \right) \cos \left( \frac{y}{\sqrt{2}} \right) + 1, 
 \] 
 and apply the Gradient Descent method $\mathbf{d_k} = -\nabla f \left( \mathbf{x_k} \right)$, starting from $\mathbf{x_0} = (2 \sqrt{2} \pi, 2 \sqrt{2} \pi)^{T}$. It can be shown that this function is bounded below (trivially by 0) and that $\nabla f$ is Lipschitz continuous on $\mathbb{R}^n$ with positive Lipschitz contant. It can be proved using simple calculus tricks that (arbitrarily small) step sizes satisfying both the Armijo and Wolfe conditions exist and, moving to these iterates at each step, that the iterates converge to a stationary point. </p>
