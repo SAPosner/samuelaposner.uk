@@ -82,9 +82,9 @@ figure {
   float: right;
 }
 
-.figure img {
+figure img {
     display: block;
-    margin: 0 auto;       /* centres the image horizontally */
+    margin: 0 auto;
 }
 
 figcaption {
